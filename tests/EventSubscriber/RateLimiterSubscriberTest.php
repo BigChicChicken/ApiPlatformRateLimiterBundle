@@ -13,7 +13,6 @@ use ApiPlatformRateLimiterBundle\EventSubscriber\RateLimiterSubscriber;
 use Exception;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\HttpKernel\Exception\TooManyRequestsHttpException;
-use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
 /**
  * @author Florent TEDESCO

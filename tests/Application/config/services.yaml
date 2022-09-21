@@ -1,0 +1,3 @@
+services:
+  ApiPlatformRateLimiterBundle\Tests\Application\Provider\BookProvider:
+    tags: [ 'api_platform.state_provider' ]

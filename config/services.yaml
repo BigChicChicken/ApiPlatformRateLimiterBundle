@@ -1,0 +1,6 @@
+services:
+    api_platform.rate_limiter.event.subscriber:
+        public: true
+        class: ApiPlatformRateLimiterBundle\EventSubscriber\RateLimiterSubscriber
+        tags:
+            - { name: kernel.event_subscriber }

@@ -1,0 +1,6 @@
+framework:
+    rate_limiter:
+        fixed_window_2_requests_every_2_secondes:
+            policy: 'fixed_window'
+            limit: 2
+            interval: '2 seconds'

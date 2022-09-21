@@ -1,0 +1,7 @@
+resources:
+  ApiPlatformRateLimiterBundle\Tests\Application\Entity\Book:
+    provider: ApiPlatformRateLimiterBundle\Tests\Application\Provider\BookProvider
+    operations:
+      ApiPlatform\Metadata\GetCollection:
+        extraProperties:
+          rate_limiter: "fixed_window_2_requests_every_2_secondes"

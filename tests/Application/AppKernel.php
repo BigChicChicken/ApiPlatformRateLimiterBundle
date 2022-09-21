@@ -29,7 +29,7 @@ class AppKernel extends Kernel
         registerContainerConfiguration as registerContainerConfigurationTrait;
     }
 
-    public function __construct(string $environment, bool $debug)
+    public function __construct(string $environment)
     {
         parent::__construct($environment, false);
     }

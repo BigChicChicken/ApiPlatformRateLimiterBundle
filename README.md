@@ -61,4 +61,4 @@ class MyClass
 
 ## License
 
-This is completely free and released under the [MIT License](https://github.com/BigChicChicken/ApiPlatformRateLimiterBundle/blob/main/LICENSE).
+This is completely free and released under the [MIT License](/LICENSE).
